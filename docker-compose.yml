@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  test-db:
+    image: mysql:8.0
+    container_name: sparta-mysql-test
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: sparta
+    ports:
+      - "3307:3306"
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+      - --default-authentication-plugin=mysql_native_password

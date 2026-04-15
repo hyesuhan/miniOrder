@@ -1,3 +1,7 @@
+# CRUD 과제 제출
+***
+
+
 ## 시작 방법
 ```bash
 docker-compose up -d
@@ -5,8 +9,10 @@ docker-compose up -d
 
 이후 프로젝트를 시작하면 localhost:8080에서 접속할 수 있습니다.
 
-### API 명세 + E2E test 이미지
-#### Products
+## API 명세 + E2E test 이미지
+### Products 
+***
+
 `POST /api/products` - 상품 등록
 <img width="513" height="473" alt="Image" src="https://github.com/user-attachments/assets/2edb3efc-0a59-4851-a31b-eaf2244f582b" />
 
@@ -26,7 +32,8 @@ docker-compose up -d
 상품 삭제 후 Exception
 
 
-#### Orders
+### Orders
+***
 
 `POST /api/orders` - 주문 생성
 <img width="522" height="505" alt="Image" src="https://github.com/user-attachments/assets/f9c3b70f-31bb-48c5-b10c-4c98917e9b5d" />
